@@ -12,12 +12,13 @@
 //	print("<br/>");
 //	var_dump($output);
 	//print($outputfile);
-	sleep(30);
+//	sleep(30);
 	for($x = 0; $x < $P; $x++){
+		sleep(1);
 		$output1 = shell_exec("./launchMWorker.sh $N $G  2>&1");
 		print('sent ./launch 6727 ./../app/matrix/mworker ' .$G);
 		print("<br/>");
-		sleep(3);
+//		sleep(3);
 //		var_dump($output1);
 	}
 	
