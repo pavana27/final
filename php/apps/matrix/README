@@ -1,0 +1,9 @@
+Folder Contents:
+
+a) makefile: Usage: make SIZE=MatrixSize. This will generate mmaster and mworker
+b) makefile: Usage: rm matrix; make SIZE=MatrixSize matrix. This will generate the sequential matrix
+c) setup.sh: Setup the TSH_PORT
+d) source ~/.bashrc to referesh environment variables BEFORE running programs.
+e) mmaster Granularity: runs the matrix master with a granularity
+f) mworker: run straight without arguments. You can saturate the cores by launching multiple workers at the same time
+g) bestOrder.c: Example (not required) C program with MySQL integration.

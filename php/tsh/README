@@ -1,0 +1,10 @@
+This folder holds:
+
+a) setup.sh: Bash script for setting up the TSH_PORT. Please remember to:
+b) source ~/.bashrc (after done (a)).
+c) makefile: This script compiles tsh and tshtest with all dependencies.
+d) tsh.c, tsh.h: Tuple Space implementation with a builtin shell.
+e) lsh.c: Revised Open Source shell (by Steven Brannon) program.
+d) tshtest.c, tshtest.h: Tuple Space and remote shell tester.
+f) testch.c: A demo program to capture a string with multiple spaces.
+g) captureStdout2.c: A demo program to capture stdout in a remote shell.

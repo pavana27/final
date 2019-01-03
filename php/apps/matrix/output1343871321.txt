@@ -1,0 +1,25 @@
+Before ts_init() ... 
+cnf_init done. host (16777343) port (6727)
+ mtclnt.  Chunk size (200) 
+mtclnt N size (2000) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 1000 received 0) 
+Received (200) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 800 received 200) 
+Received (400) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 200 received 400) 
+Received (600) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 400 received 600) 
+Received (800) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 1200 received 800) 
+Received (1000) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 0 received 1000) 
+Received (1200) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 600 received 1200) 
+Received (1400) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 1400 received 1400) 
+Received (1600) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 1600 received 1600) 
+Received (1800) mtclnt.  waiting for a tuple 
+ mtclnt.  tuple 1800 received 1800) 
+Received (2000) mtclnt.  received everything
+ACK status(2048) error(0)
