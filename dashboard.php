@@ -210,8 +210,8 @@
 			<div class="card-header">
 				Runtime	Monitor
 			</div>
+			<i class='fas fa-spinner fa-spin' style='display: none;' id='spinner'></i>
 			<div id="app-stdout" class="card-body">
-
 			</div>
 		  </div>
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
@@ -336,6 +336,7 @@
 
         	$('#form-acan').on('submit', function(event) {
             		event.preventDefault();
+			$('#spinner').show();
 			var $inputs = $('#form-acan :input');
 			var values = {};
     			$inputs.each(function() {
@@ -349,14 +350,16 @@
 				cache: false
 			}).done(function(data){
 				$('#app-stdout').html(data);
-				$.ajax({
+			/*	$.ajax({
                                 	method: "POST",
                                 	url: "php/runACAN1.php",
                                 	data: values,
                                 	cache: false
                         	}).done(function(data){
 					$('#app-stdout').append(data);
+					$('#spinner').hide();	
 				});
+			*/
 			});
         	});
 	
